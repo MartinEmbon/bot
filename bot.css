@@ -14,17 +14,3 @@
     
   }
   
-  .bpw-bot-avatar::after {
-    content: "jkjk"; /* Replace the content with "jkjk" */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    font-size: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white; /* Optional - Change text color to white for better visibility */
-  }
