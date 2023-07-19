@@ -3,7 +3,7 @@
 }
 
 .bpw-header-container{
-    background-color: rgb(255, 0, 144) !important;
+    background-color:#CD5B1C !important;
 }
 
 
@@ -15,7 +15,7 @@
   }
   
   .bpw-bot-avatar img{
-    background: blue;
+    background: #273F62;
     border: 3px solid #fff;
     border-radius: 50%;
     height: 40px;
