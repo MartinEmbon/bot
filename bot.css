@@ -5,3 +5,14 @@
 .bpw-header-container{
     background-color: red !important;
 }
+
+.bpw-bot-avatar{
+    display: none;
+    position: relative;
+}
+
+.bpw-bot-avatar::after{
+    content: "Test";
+    position: absolute;
+    top: 0;left: 0;
+}
