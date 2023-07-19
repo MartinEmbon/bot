@@ -1,3 +1,7 @@
 .bpw-header-title{
-    color:red;
+    color:red !important;
+}
+
+.bpw-header-container{
+    background-color: red !important;
 }
