@@ -3,18 +3,6 @@
 }
 
 .bpw-header-container{
-    background-color: red !important;
+    background-color: rgb(255, 0, 144) !important;
 }
 
-.bpw-bot-avatar{
-    visibility: hidden;
-    position: relative;
-}
-
-.bpw-bot-avatar::after{
-    content: "Test";
-    color: white;
-    position: absolute;
-    top: 0;left: 0;
-    font-size: 12px;
-}
