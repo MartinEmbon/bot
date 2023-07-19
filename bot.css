@@ -7,7 +7,7 @@
 }
 
 .bpw-bot-avatar{
-    display: none;
+    visibility: hidden;
     position: relative;
 }
 
@@ -15,4 +15,5 @@
     content: "Test";
     position: absolute;
     top: 0;left: 0;
+    font-size: 12px;
 }
