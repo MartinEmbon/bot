@@ -22,6 +22,15 @@
     width: 40px;
   }
 
-  .bpw-widget-btn i svg{ 
-    display: none;
+  .bpw-widget-btn i {
+    display: block; /* Ensure the <i> element is visible */
+    background-image: url("card1.jpg"); /* Replace the background with the new SVG */
+    width: 20px;
+    height:20px;
+    /* Add any other necessary styles for the container here */
   }
+  
+  .bpw-widget-btn i svg {
+    display: none; /* Hide the original SVG */
+  }
+  
