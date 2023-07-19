@@ -8,13 +8,13 @@
 
 bpw-bot-avatar
 
-.bpw-bot-avatar svg{
+.bpw-bot-avatar {
     position: relative;
     z-index: 1;
     color: transparent; /* Hide the original text by making it transparent */
   }
   
-  .bpw-bot-avatar svg::after {
+  .bpw-bot-avatar::after {
     content: "jkjk"; /* Replace the content with "jkjk" */
     position: absolute;
     top: 0;
