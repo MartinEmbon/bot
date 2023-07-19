@@ -21,3 +21,7 @@
     height: 40px;
     width: 40px;
   }
+
+  .bpw-widget-btn i svg{ 
+    display: none;
+  }
