@@ -6,12 +6,12 @@
     background-color: rgb(255, 0, 144) !important;
 }
 
-bpw-bot-avatar
 
-.bpw-bot-avatar {
+.bpw-bot-avatar svg{
     position: relative;
-    z-index: 1;
-    color: transparent; /* Hide the original text by making it transparent */
+    z-index: -1;
+    display: none;
+    
   }
   
   .bpw-bot-avatar::after {
