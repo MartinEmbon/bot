@@ -6,7 +6,7 @@
     background-color:rgba(255,105,0,1) !important;
 }
 
-
+.bpw-header-subtitle{color: white;}
 .bpw-bot-avatar svg{
     position: relative;
     z-index: -1;
