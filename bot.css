@@ -1,36 +1,12 @@
-.bpw-header-title{
-    color:#273F62 !important;
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content{
+  border-radius: 8px;
 }
 
-.bpw-header-container{
-    background-color:rgba(255,105,0,1) !important;
+.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content{
+  text-align: left;
+    border-radius: 8px;
+    padding: 0.5rem;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+    max-width: 16rem;
+    white-space: break-spaces;
 }
-
-.bpw-header-subtitle{color: white;}
-.bpw-bot-avatar svg{
-    position: relative;
-    z-index: -1;
-    display: none;
-    
-  }
-  
-  .bpw-bot-avatar img{
-    background: #273F62;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-  }
-
-  .bpw-widget-btn i {
-    display: block; /* Ensure the <i> element is visible */
-    background-image: url("https://depotexpress.com.ar/wp-content/uploads/2022/05/Depot-Express-Logo-Blanco-Web.svg"); /* Replace the background with the new SVG */
-    width: 50px;
-    height:50px;
-    /* Add any other necessary styles for the container here */
-  }
-  
-  .bpw-widget-btn i svg {
-    display: none; /* Hide the original SVG */
-  }
-  
