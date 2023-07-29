@@ -46,6 +46,8 @@ p,
   border: 1px;
   border-radius: 10px;
   color: #4e4e4e;
+  background-color: #fff;
+  border-bottom: 1px solid #b9ddff;
 }
 
 /* Styling for the typing bubble */
@@ -131,7 +133,7 @@ a {
 
 /* Styling for the chat container, including color, scrollbar width and color, and border */
 .bpw-chat-container {
-  background-color: #000;
+  /* background-color: #000; */
   scrollbar-width: thin;
   scrollbar-color: #b9ddff #000;
   border: none;
@@ -141,18 +143,21 @@ a {
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
   background-color: #b9ddff !important;
   color: #002468;
+  border-radius: 8px !important;
 }
 
 /* Styling for the chat bubble content when it's from the user */
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
   background-color: #0970e6;
   color: #ffffff;
+  border-radius: 8px !important;
 }
 
 /* Styling for the composer section of the chat interface */
 .bpw-composer {
-  background-color: #000;
+  /* background-color: #000; */
   border-top: 1px solid #b9ddff;
+  border: 1px solid #d9d9d9 !important;
 }
 
 
