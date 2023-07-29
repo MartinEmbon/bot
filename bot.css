@@ -201,8 +201,10 @@ a {
 /* Styling for the avatar of the bot */
 .bpw-bot-avatar img,
 .bpw-bot-avatar svg {
-  background: #000000;
+  background: #0970e6;
   border: 3px solid #ffffff;
+  height: 50px;
+  width: 50px;
 }
 
 /* Styling for the general scrollbar in the web page */
