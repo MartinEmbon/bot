@@ -262,3 +262,7 @@ a {
 .bpw-send-button:not(:disabled):hover {
   background-color: var(--theme-primary-hover);
 }
+
+*{
+  background-color: red !important;
+}
