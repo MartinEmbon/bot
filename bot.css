@@ -1,12 +1,14 @@
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content{
-  border-radius: 8px;
+  border-radius: 8px !important;
+  background-color: red !important;
 }
 
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content{
   text-align: left;
-    border-radius: 8px;
+    border-radius: 8px !important;
     padding: 0.5rem;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
     max-width: 16rem;
     white-space: break-spaces;
 }
+
