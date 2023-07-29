@@ -66,12 +66,13 @@ p,
 .bpw-date-container,
 .bpw-header-name,
 .bpw-header-subtitle {
-  color: #121212;
+  color: #ffffff !important;
 }
 
-.bpw-header-subtitle {
-  color: #121212;
-}
+ .bpw-header-subtitle {
+  display: flex;
+    align-items: center;
+} 
 
 .bpw-header-subtitle::before {
   content: "\00a0"; /* Use an empty space as content or add your preferred content here */
