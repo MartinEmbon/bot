@@ -139,7 +139,7 @@ a {
 
 /* Styling for the chat bubble content when it's from the bot */
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #b9ddff;
+  background-color: #b9ddff !important;
   color: #002468;
 }
 
@@ -261,8 +261,4 @@ a {
 
 .bpw-send-button:not(:disabled):hover {
   background-color: var(--theme-primary-hover);
-}
-
-*{
-  background-color: red !important;
 }
