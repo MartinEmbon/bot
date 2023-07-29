@@ -206,6 +206,7 @@ a {
   height: 50px;
   width: 50px;
   background: none !important;
+  border: none !important;
 }
 
 /* Styling for the general scrollbar in the web page */
