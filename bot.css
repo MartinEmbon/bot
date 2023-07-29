@@ -69,6 +69,19 @@ p,
   color: #121212;
 }
 
+.bpw-header-subtitle {
+  color: #121212;
+}
+
+.bpw-header-subtitle::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 7rem;
+  margin-right: 0.25rem;
+  background: #199a57;
+}
+
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 .bpw-layout {
   width: 360px !important;
@@ -144,6 +157,7 @@ a {
   background-color: #b9ddff !important;
   color: #002468;
   border-radius: 8px !important;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
 }
 
 /* Styling for the chat bubble content when it's from the user */
@@ -151,6 +165,7 @@ a {
   background-color: #0970e6;
   color: #ffffff;
   border-radius: 8px !important;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
 }
 
 /* Styling for the composer section of the chat interface */
