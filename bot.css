@@ -72,6 +72,13 @@ p,
  .bpw-header-subtitle {
   display: flex;
     align-items: center;
+    font-size: .875rem;
+    line-height: 20px;
+} 
+
+.bpw-header-name {
+  font-size: 1rem;
+  line-height: 24px;
 } 
 
 .bpw-header-subtitle::before {
