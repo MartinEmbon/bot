@@ -91,7 +91,9 @@ p,
   border-radius: 50%;
 }
 
-
+.bpw-chat-bubble{
+  margin-bottom: 30px;
+}
 
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 .bpw-layout {
