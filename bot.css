@@ -80,8 +80,6 @@ p,
   margin-right: 0.25rem;
   background: #199a57;
   border-radius: 50%;
-  width: 40px;
-  height: 30px;
 }
 
 
@@ -219,7 +217,7 @@ a {
 
 /* Styling for the floating button icon in the chat interface */
 .bpw-floating-button i svg path {
-  fill: #000;
+  fill: #fff;
 }
 
 /* Styling for the floating button in the chat interface */
