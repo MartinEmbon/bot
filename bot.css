@@ -74,7 +74,8 @@ p,
 }
 
 .bpw-header-subtitle::before {
-  content: "";
+  content: "\00a0"; /* Use an empty space as content or add your preferred content here */
+  display: inline-block; /* Make the pseudo-element an inline block to apply width and height properties */
   width: 0.5rem;
   height: 0.5rem;
   margin-right: 0.25rem;
