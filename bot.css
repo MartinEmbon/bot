@@ -80,6 +80,7 @@ p,
   border-radius: 7rem;
   margin-right: 0.25rem;
   background: #199a57;
+  border-radius: 50%;
 }
 
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
