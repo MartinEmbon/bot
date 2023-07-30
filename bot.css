@@ -60,7 +60,7 @@ p,
   background-color: #b9ddff;
   border-radius: 3px;
   border: 1px transparent;
-  margin: 10px;
+  margin: 5px;
 }
 
 /* Styling for the date container, header name, and header subtitle */
@@ -70,6 +70,9 @@ p,
   color: #ffffff !important;
 }
 
+.bpw-date-container{
+  color: #b9ddff !important;
+}
  .bpw-header-subtitle {
   display: flex;
     align-items: center;
