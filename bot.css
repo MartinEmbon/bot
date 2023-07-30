@@ -240,7 +240,28 @@ a {
 .bpw-floating-button {
   background: black;
   border-radius: 52px;
+  position: relative;
 }
+
+.bpw-floating-button::before {
+  content: "Hello";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #199a57;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  display: none;
+}
+
+.bpw-floating-button:hover::before {
+  display: block;
+}
+
+
+
 
 /* Styling for the 'powered by' section of the chat interface */
 .bpw-powered {
