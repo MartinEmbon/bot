@@ -60,6 +60,7 @@ p,
   background-color: #b9ddff;
   border-radius: 3px;
   border: 1px transparent;
+  margin: 10px;
 }
 
 /* Styling for the date container, header name, and header subtitle */
@@ -242,22 +243,10 @@ a {
   border-radius: 52px;
   position: relative;
 }
-.message-bubble {
-  position: absolute;
-  bottom: calc(100% + 10px); /* Adjust the distance between the button and bubble */
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #199a57;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 8px;
-  display: none;
-}
 
-.bpw-floating-button:hover + .message-bubble {
-  display: block;
+.bpw-composer-inner{
+  padding: 0px 5px;
 }
-
 
 
 
