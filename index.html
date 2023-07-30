@@ -77,6 +77,29 @@
 
 <!-- <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
 <script src="https://mediafiles.botpress.cloud/777419f2-5b85-4fc3-bcb9-4842961f96bc/webchat/config.js" defer></script> -->
+<script>
+    window.botpressWebChat.onEvent(function(event) {
+        if (event.type === 'LIFECYCLE.LOADED') {
+            window.botpressWebChat.sendEvent({ type: 'show' });
+            window.botpressWebChat.sendMessage({ type: 'text', text: 'Hello' });
+            window.botpressWebChat.sendEvent({
+                type: "loadConversation",
+            });
+        }
+    }, ['LIFECYCLE.LOADED']);
+
+    window.addEventListener("message", function (event) {
+        if (event.data.type == "LIFECYCLE.READY") {
+            window.botpressWebChat.sendEvent({
+                type: "trigger",
+                channel: "web",
+                payload: {
+                    text: "",
+                },
+            });
+        }
+    });
+</script>
 <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
 <script src="https://mediafiles.botpress.cloud/777419f2-5b85-4fc3-bcb9-4842961f96bc/webchat/config.js" defer></script>
 
